@@ -9,7 +9,6 @@ class FoldOverItem3 extends Component {
 return(
       <div className="linksContainerLocations">
              <br/>
-          </a>
       </div>
     )
   }
