@@ -1,0 +1,54 @@
+{
+  "name": "pureheartyoga",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-transition-group": "^4.1.0",
+    "superagent": "^5.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JamesMedina7787/PureHeartYoga.git'.git"
+  },
+  "keywords": [
+    "pure",
+    "heart",
+    "yoga",
+    "gia",
+    "ny",
+    "new",
+    "hartford",
+    "gianina",
+    "central"
+  ],
+  "author": "jwm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesMedina7787/PureHeartYoga.git'/issues"
+  },
+  "homepage": "https://github.com/JamesMedina7787/PureHeartYoga.git'#readme"
+}

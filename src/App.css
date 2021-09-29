@@ -1,0 +1,342 @@
+.App {
+  text-align: center;
+  background-color: oldlace
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+
+
+.foldOverContainer > .foldOver{
+  flex: 1;
+  width: 20%;
+  background-color: black;
+  color:white;
+  font-size: 3em;
+  list-style-type: none;
+
+}
+
+.foldOverContainer > :nth-of-type(1n){
+  border-right: 1px solid white;
+  text-align: center;
+  padding: 1em;
+  text-decoration: inherit;
+  font-family: fantasy;
+  margin-right: 1em;
+
+
+}
+
+
+
+.foldOverContainer > .foldOver:last-child{
+  border-right: 0px solid black;
+  background-color: yellow
+}
+
+
+.foldOverContainer{
+  display:inline-flex;
+  width: 100%;
+  list-style-type: none;
+height: 170px;
+padding:1em;
+z-index: 1
+}
+
+.foldOver:hover{
+border: 22px solid brown
+}
+
+.blogContainer{
+  background-color: black;
+  font-family:wing-dings;
+font-size: 1.17em;
+z-index: 1
+}
+
+.url{
+  z-index: 1
+}
+
+.blog{
+  animation: 200ms ease-in 1 normal running forwards dropDown;
+  color: white;
+  padding: 3em;
+  font-weight: bold;
+  transform-origin: top;
+}
+
+#tenLimbs{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  height: 340px
+}
+
+.linksContainer{
+  animation: 200ms ease-in 1 normal running forwards dropDown;
+transform-origin: top;
+  padding: 1em;
+  display:inline-flex;
+  background-color: black;
+  align-items: stretch;
+  width:100%;
+  height:120px
+}
+
+
+
+.linksContainer2{
+  animation: 200ms ease-in 1 normal running forwards dropDown;
+transform-origin: top;
+  padding: 1em;
+  display:inline-flex;
+  background-color: black;
+  align-items: stretch;
+  width:100%;
+  height:120px
+}
+
+.linksContainerLocations{
+  animation: 200ms ease-in 1 normal running forwards dropDown;
+transform-origin: top;
+  padding: 1em;
+  display:inline-flex;
+  background-color: black;
+  align-items:center;
+  width:80%;
+  height:20%;
+  text-align: center;
+}
+
+.linksContainerLinks{
+  animation: 200ms ease-in 1 normal running forwards dropDown;
+transform-origin: top;
+  padding: 1em;
+  display:inline-flex;
+  background-color: black;
+  align-items:center;
+  width:80%;
+  height:240px;
+  text-align: center;
+}
+
+.linkStyle{
+
+  background-color: black;
+
+  z-index: 1;
+  width:100%;
+height: 100px
+}
+
+.linkStyle2{
+margin:.5em;
+padding:1em;
+  background-color: black;
+  width:100%;
+height:170px;
+  z-index: 1;
+}
+
+.linkStyle:hover{
+  width:100%;
+height: 100px;
+
+  z-index: 1;
+}
+
+.flipBack{
+  position: relative;
+  width:18%;
+  height:100px;
+  padding:.2em
+}
+
+.flipBack:hover{
+  position: relative;
+width:18%;
+height: 100px;
+padding: .2em
+
+}
+
+.flipDiv{
+  position:absolute;
+  top:0;
+  left:0;
+  background-color: black;
+  width:100%;
+  height:100px;
+    padding: .2em;
+}
+.flipDiv:hover{
+  animation: 2000ms 1 normal running forwards fadeOut;
+  background-color: black;
+  position: absolute;
+  width:100%;
+  height:100px;
+  padding: .2em;
+top:0;
+left:0
+}
+
+.ahimsa{
+  background-image: './pictures/Sacral-Chakra-Symbol-1.jpg'
+}
+.NiyamaContainer{
+  font-family:wing-dings;
+color:white;
+
+}
+
+.Niyama{
+  animation: 200ms ease-in 1 normal running forwards dropDown;
+  color: white;
+  padding: 3em;
+  font-weight: bold;
+  transform-origin: top;
+    white-space:'pre-wrap',
+}
+
+.yama{
+  animation: 200ms ease-in 1 normal running forwards dropDown;
+  color: white;
+  padding: 3em;
+  font-weight: bold;
+  transform-origin: top;
+  white-space:'pre-wrap',
+}
+
+
+.Spins{
+  color: white;
+  padding: 3em;
+  font-weight: bold;
+
+}
+.Spins:hover{
+  animation: 1000ms 1 normal running forwards spins;
+  transform-style: preserve-3d;
+  transform-origin: top;
+}
+
+
+.name{
+  color: white;
+  font-size: 3em;
+  opacity: 1;
+	animation-name: fadeIn;
+	animation-timing-function: ease-in;
+  animation-duration: 3s;
+}
+
+.meaning{
+  color:lightblue;
+  font-size: 2.3em;
+  opacity: 1;
+  animation-name: fadeIn;
+  animation-timing-function: ease-in;
+  animation-duration: 8s;
+
+}
+.bowPic{
+  background-image: url("./pictures/giaGianina.jpg");
+  background-repeat: no-repeat;
+  background-position:top;
+  height: 1100px;
+  position: relative;
+  width:100%;
+  background-attachment: fixed;
+  background-origin: content-box;
+  z-index: 2
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0
+  }
+  100%{
+    opacity:1
+  }
+
+}
+
+@keyframes fadeOut {
+  0%{
+    opacity: 1
+  }
+  100%{
+    opacity:0
+  }
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spins {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes grows{
+  0%{
+    border: 0 solid purple
+  }
+  100%{
+    border: 22px solid purple
+  }
+}
+
+@keyframes spins90 {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(90deg);
+  }
+}
+
+@keyframes dropDown {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
