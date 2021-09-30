@@ -29,7 +29,7 @@ import bow from './pictures/giaGianina.jpg'
 import SacralChakraSymbol1 from './pictures/Sacral-Chakra-Symbol-1.jpg'
 import vishudda from './pictures/vishudda.jpg'
 import fb from "./pictures/fb.jpg"
-import scope from "./pictures/scope.png"
+import scope from "./pictures/pure-heart.jpg"
 
 
 
