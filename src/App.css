@@ -201,8 +201,8 @@ padding: .2em
   width:100%;
   height:100px;
   padding: .2em;
-top:0;
-left:0
+  top:0;
+  left:0
 }
 
 .ahimsa{
@@ -276,6 +276,9 @@ color:white;
   z-index: 2
 }
 
+
+
+
 @keyframes fadeIn {
   0%{
     opacity: 0
@@ -338,5 +341,54 @@ color:white;
   }
   to {
     transform: scaleY(1);
+  }
+}
+
+  @media (max-width:800px){
+
+
+
+    .foldOverContainer > .foldOver{
+      flex: 1;
+      width: 80%;
+      background-color: black;
+      color:white;
+      font-size: 3em;
+      list-style-type: none;
+      margin-right: 10%;
+      margin-left: 10%
+
+    }
+
+    .foldOverContainer > :nth-of-type(1n){
+      border-right: 1px solid white;
+      text-align: center;
+      padding: 1em;
+      text-decoration: inherit;
+      font-family: Lucida ;
+      font-weight: bold;
+      margin-top: 1em;
+
+
+    }
+
+
+
+    .foldOverContainer > .foldOver:last-child{
+      border-right: 0px solid black;
+      background-color: yellow
+    }
+
+    .foldOverContainer{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    list-style-type: none;
+  height:800px;
+  padding:5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: 5%;
+  z-index: 1
   }
 }
