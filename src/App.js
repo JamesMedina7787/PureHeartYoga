@@ -118,7 +118,7 @@ class App extends Component {
 
 
 <div className="url">
-      <Project className="Spins" webSiteName="Pure Hearts Yoga" image={scope} url="/FoldOverItem"/>
+      <Project className="Spins" webSiteName="Pure Heart Yoga" image={scope} url="/FoldOverItem"/>
       <Project className="Spins" webSiteName="Links" image={lotus2} url="/FoldOverItem2"/>
       <Project className="Spins" webSiteName="Schedule" image={ohm} url="/FoldOverItem3"/>
       <Project className="Spins" webSiteName="Blog" image={chakraSnakeImage} url="/FoldOverItem4"/>
