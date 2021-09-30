@@ -14,7 +14,7 @@ class FoldOverItem2 extends Component {
           <br />
             <br/>
          </a><br/>
-         <a href={'https://www.facebook.com/pureheartsyoga'} alt="Gia Gianina Pure Heart Yoga Porfolio">
+         <a href={'https://www.facebook.com/PureHeartYoga.net'} alt="Gia Gianina Pure Heart Yoga Porfolio">
           <img  className="linkStyle2" src={fb}/><br/>
            <br />
              <br/>
