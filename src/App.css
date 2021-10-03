@@ -343,7 +343,7 @@ color:white;
     transform: scaleY(1);
   }
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:900px) {
   .foldOverContainer{
     display:flex;
     flex-direction: column;
