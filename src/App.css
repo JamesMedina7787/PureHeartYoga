@@ -270,7 +270,7 @@ color:white;
   background-position:top;
   height: 1100px;
   position: relative;
-  width:100%;
+  height:100%;
   background-attachment: fixed;
   background-origin: content-box;
   z-index: 2
