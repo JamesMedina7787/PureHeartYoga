@@ -103,8 +103,7 @@ class App extends Component {
            <Route className='foldOver' path="/FoldOverItem2" component={FoldOverItem2} >
            </Route>
 
-           <Route  className='foldOver' path="/FoldOverItem3" component={FoldOverItem3}>
-           </Route>
+
 
            <Route  className='foldOver' path="/FoldOverItem4" component={FoldOverItem4}>
            </Route>
@@ -120,7 +119,6 @@ class App extends Component {
 <div className="url">
       <Project className="Spins" webSiteName="Pure Heart Yoga" image={scope} url="/FoldOverItem"/>
       <Project className="Spins" webSiteName="Links" image={lotus2} url="/FoldOverItem2"/>
-      <Project className="Spins" webSiteName="Schedule" image={ohm} url="/FoldOverItem3"/>
       <Project className="Spins" webSiteName="Blog" image={chakraSnakeImage} url="/FoldOverItem4"/>
 </div>
 <div className="bowPic">
