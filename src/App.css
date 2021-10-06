@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  background-color: oldlace
+  background-color: oldlace;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -58,12 +60,13 @@
 
 
 .foldOverContainer{
-  display:inline-flex;
+  display: flex;
+flex-direction: row;
   width: 100%;
   list-style-type: none;
 height: 170px;
 padding:1em;
-z-index: 1
+z-index: 1;
 }
 
 .foldOver:hover{
@@ -77,9 +80,7 @@ font-size: 1.17em;
 z-index: 1
 }
 
-.url{
-  z-index: 1
-}
+
 
 .blog{
   animation: 200ms ease-in 1 normal running forwards dropDown;
@@ -90,12 +91,14 @@ z-index: 1
 }
 
 #tenLimbs{
-  display: flex;
+flex:1;
   flex-direction: column;
   align-items: stretch;
   width: 100%;
-  height: 340px
+  height: 340px;
+
 }
+
 
 .linksContainer{
   animation: 200ms ease-in 1 normal running forwards dropDown;
@@ -158,7 +161,7 @@ height: 100px
   background-color: black;
   z-index: 1;
   width:25%;
-height: 50px
+height: 85%
 }
 
 .linkStyle2{
@@ -277,12 +280,26 @@ color:white;
   background-position:top;
   height: 1100px;
   position: relative;
-  height:100%;
+  width:100%;
   background-attachment: fixed;
   background-origin: content-box;
   z-index: 2
 }
-
+#url{
+  display: flex;
+  z-index: 1;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+}
+.sectionStyle {
+    background-color:oldlace;
+    height:10%;
+    margin-top:3em;
+    font-size:2em;
+    font-weight:"bold";
+    color: black
+}
 
 
 
@@ -396,7 +413,7 @@ display: none;
     background-color: black;
     align-items:center;
     width:100%;
-    height:240px;
+    height:140px;
     text-align: center;
 
   }
@@ -410,5 +427,17 @@ display: none;
     width:100%;
     height:120px;
 
+  }
+
+  .bowPic{
+    background-image: url("./pictures/giaGianina.jpg");
+    background-repeat: no-repeat;
+    background-position:top;
+    height: 780px;
+    position: relative;
+    width:100%;
+    background-attachment: fixed;
+    background-origin: content-box;
+    z-index: 2
   }
 }

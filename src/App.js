@@ -82,7 +82,7 @@ class App extends Component {
 
 
 
-
+<div id="menuLinks">
       <BrowserRouter >
        <Navigation  />
        <Switch >
@@ -115,13 +115,20 @@ class App extends Component {
       </BrowserRouter>
 
 
-
-<div className="url">
+</div>
+<div id="url">
+<div class="sectionStyle">
       <Project className="Spins" webSiteName="Pure Heart Yoga" image={scope} url="/FoldOverItem"/>
+</div>
+<div class="sectionStyle">
       <Project className="Spins" webSiteName="Links" image={lotus2} url="/FoldOverItem2"/>
+</div>
+<div class="sectionStyle">
       <Project className="Spins" webSiteName="Blog" image={chakraSnakeImage} url="/FoldOverItem4"/>
 </div>
+</div>
 <div className="bowPic">
+
 </div>
       </div>
 

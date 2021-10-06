@@ -9,7 +9,7 @@ const labelStyle= {
 }
 const imgStyle= {
   backgroundColor:"oldlace",
-  width:'20%',
+  height:'12em',
     marginTop: "3em"
 }
 
