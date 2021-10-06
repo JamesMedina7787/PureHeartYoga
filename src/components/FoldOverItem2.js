@@ -10,12 +10,12 @@ class FoldOverItem2 extends Component {
       return (
         <div className="linksContainerLinks">
         <a  href={'https://www.instagram.com/bxbellaitaliana'} alt="Gia Gianina Pure Heart Yoga Porfolio">
-         <img  className="linkStyle2" src={ig}/><br/>
+         <img  className="socialLinks" src={ig}/><br/>
           <br />
             <br/>
          </a><br/>
          <a href={'https://www.facebook.com/PureHeartYoga.net'} alt="Gia Gianina Pure Heart Yoga Porfolio">
-          <img  className="linkStyle2" src={fb}/><br/>
+          <img  className="socialLinks" src={fb}/><br/>
            <br />
              <br/>
           </a>
