@@ -291,12 +291,9 @@ color:white;
   z-index: 1;
     flex-direction: column;
     align-items:center;
-    width: 75%;
 }
 .sectionStyle {
     background-color:oldlace;
-    height:10%;
-    width: 50%;
     margin-top:3em;
     font-size:2em;
     font-weight:"bold";
