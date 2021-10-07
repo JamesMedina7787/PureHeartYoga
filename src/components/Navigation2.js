@@ -41,50 +41,50 @@ class Navigation2 extends Component {
       <div className="linksContainer">
        <section className="flipBack">
         <NavLink className="linkStyle"  to="/Yama1"><img className="linkStyle" src={ahi} />
-        <div className="flipDiv"><img className="linkStyle" src={ahimsa} /></div>
+        <div className="flipDiv"><img className="linkStyle" src={ahimsa} alt="Yama ahimsa Gia Yoga Pure"/></div>
       </NavLink><br/>
        </section>
        <section className="flipBack">
         <NavLink className="linkStyle"  to="/Yama2"><img className="linkStyle" src={ast} />
-        <div className="flipDiv"><img className="linkStyle" src={asteya} /></div>
+        <div className="flipDiv"><img className="linkStyle" src={satya} alt="Satya Pure Heart" /></div>
       </NavLink><br/>
        </section>
        <section className="flipBack">
         <NavLink className="linkStyle"  to="/Yama3"><img className="linkStyle" src={sat} />
-        <div className="flipDiv"><img className="linkStyle" src={satya} /></div>
+        <div className="flipDiv"><img className="linkStyle" src={asteya} alt="Asteya Pure Heart Yoga" /></div>
       </NavLink><br/>
        </section>
        <section className="flipBack">
         <NavLink className="linkStyle"  to="/Yama4"><img className="linkStyle" src={bra} />
-        <div className="flipDiv"><img className="linkStyle" src={brama} /></div>
+        <div className="flipDiv"><img className="linkStyle" src={brama} alt="Yama brahmacharya meditation" /></div>
       </NavLink><br/>
        </section>
        <section className="flipBack">
                <NavLink className="linkStyle"  to="/Yama5"><img className="linkStyle" src={apa} />
-               <div className="flipDiv"><img className="linkStyle" src={apar} /></div>
+               <div className="flipDiv"><img className="linkStyle" src={apar} alt="Yama Aparigraha Surrender" /></div>
              </NavLink><br/>
        </section>
       </div>
         <div className="linksContainer2">
          <section className="flipBack" >
           <NavLink className="linkStyle"  to="/Niyama2"><img className="linkStyle" src={san} />
-          <div className="flipDiv"><img className="linkStyle" src={santosha} /></div></NavLink><br/>
+          <div className="flipDiv"><img className="linkStyle" src={santosha} alt="Santosha Niyama " /></div></NavLink><br/>
          </section>
          <section className="flipBack">
           <NavLink className="linkStyle"  to="/Niyama1"><img className="linkStyle" src={sau} />
-          <div className="flipDiv"><img className="linkStyle" src={shaucha} /></div></NavLink><br/>
+          <div className="flipDiv"><img className="linkStyle" src={shaucha} alt="Saucha Pureness Heart Yoga"/></div></NavLink><br/>
          </section>
          <section className="flipBack">
           <NavLink className="linkStyle"  to="/Niyama3"><img className="linkStyle" src={tapa} />
-          <div className="flipDiv"><img className="linkStyle" src={fire} /></div></NavLink><br/>
+          <div className="flipDiv"><img className="linkStyle" src={fire}alt="Tapas Yogini Gia" /></div></NavLink><br/>
          </section>
          <section className="flipBack">
                 <NavLink className="linkStyle"  to="/Niyama4"><img className="linkStyle" src={sva} />
-                <div className="flipDiv"><img className="linkStyle" src={svad} /></div></NavLink><br/>
+                <div className="flipDiv"><img className="linkStyle" src={svad} alt="Svadhyaya Gianina Nijama" /></div></NavLink><br/>
          </section>
          <section className="flipBack">
                  <NavLink className="linkStyle"  to="/Niyama5"><img className="linkStyle" src={ish} />
-                 <div className="flipDiv"><img className="linkStyle" src={isva} /></div></NavLink><br/>
+                 <div className="flipDiv"><img className="linkStyle" src={isva} alt="Ishvara Gia Yoga" /></div></NavLink><br/>
          </section>
       </div>
     </div>

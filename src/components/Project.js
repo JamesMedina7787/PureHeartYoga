@@ -33,7 +33,7 @@ class Project extends Component {
 
       <section style={sectionStyle}>
        <br/>
-       <a style={linkStyle} href={this.props.url} alt="James Medina JWM Porfolio">
+       <a style={linkStyle} href={this.props.url} alt="Gia Gianina Yoga Instructor">
         <img className="Spins" style={imgStyle} src={this.props.image}/><br/>
          <br />
            <br/>
