@@ -281,7 +281,7 @@ color:white;
   background-position:top;
   height: 1100px;
   position: relative;
-  width:100%;
+  max-width: 100%;
   background-attachment: fixed;
   background-origin: content-box;
   z-index: 2
@@ -434,9 +434,24 @@ display: none;
     background-position:top;
     height: 780px;
     position: relative;
-    width:100%;
+    max-width: 100%;
     background-attachment: fixed;
     background-origin: content-box;
     z-index: 2
+  }
+  #url{
+    display: block;
+    z-index: 1;
+      flex-direction: column;
+      align-items:center;
+
+  }
+  .sectionStyle {
+      background-color:oldlace;
+      margin-top:3em;
+      font-size:2em;
+      font-weight:"bold";
+      color: black;
+
   }
 }

@@ -22,14 +22,13 @@ import chakraSnakeImage from './pictures/chakra-snake-image.jpg'
 import lotusYogini from './pictures/lotus-Yogini.jpg'
 import lotus from './pictures/lotus.jpg'
 import lotus2 from './pictures/lotus2.png'
-import lotus3 from './pictures/lotus3.png'
 import ohm from './pictures/ohm.png'
 import prana from './pictures/prana.jpg'
 import bow from './pictures/giaGianina.jpg'
 import SacralChakraSymbol1 from './pictures/Sacral-Chakra-Symbol-1.jpg'
 import vishudda from './pictures/vishudda.jpg'
 import fb from "./pictures/fb.jpg"
-import scope from "./pictures/pure-heart.jpg"
+import scope from "./pictures/scope.png"
 
 
 
@@ -121,7 +120,7 @@ class App extends Component {
       <Project className="Spins" webSiteName="Pure Heart Yoga" image={scope} url="/FoldOverItem"/>
 </div>
 <div class="sectionStyle">
-      <Project className="Spins" webSiteName="Links" image={lotus2} url="/FoldOverItem2"/>
+      <Project className="Spins" webSiteName="Links" image={ohm} url="/FoldOverItem2"/>
 </div>
 <div class="sectionStyle">
       <Project className="Spins" webSiteName="Blog" image={chakraSnakeImage} url="/FoldOverItem4"/>

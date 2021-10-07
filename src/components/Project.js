@@ -4,12 +4,12 @@ const sectionStyle= {
   backgroundColor:"oldlace"
 }
 const labelStyle= {
-  fontSize:"2em",
+  fontSize:"1em",
   fontWeight:"bold"
 }
 const imgStyle= {
   backgroundColor:"oldlace",
-  width:'12em',
+  maxWidth: '50%',
     marginTop: "3em"
 }
 
