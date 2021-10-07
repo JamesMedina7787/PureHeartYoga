@@ -2,7 +2,7 @@
   text-align: center;
   background-color: oldlace;
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   width:100%
 }
 
@@ -63,9 +63,9 @@
 .foldOverContainer{
   display: flex;
 flex-direction: row;
-  width: 100%;
+  max-width: 100%;
   list-style-type: none;
-height: 170px;
+height: 140px;
 padding:1em;
 z-index: 1;
 }
@@ -74,11 +74,14 @@ z-index: 1;
 border: 22px solid brown
 }
 
-.blogContainer{
+#blogContainer{
   background-color: black;
   font-family:wing-dings;
 font-size: 1.17em;
-z-index: 1
+z-index: 1;
+display: grid;
+flex-direction:  row;
+
 }
 
 
@@ -108,7 +111,6 @@ transform-origin: top;
   display:inline-flex;
   background-color: black;
   align-items: stretch;
-  width:100%;
   height:120px
 }
 
@@ -150,9 +152,7 @@ transform-origin: top;
 }
 
 .linkStyle{
-
   background-color: black;
-
   z-index: 1;
   width:100%;
 height: 100px

@@ -87,7 +87,7 @@ class App extends Component {
        <Switch >
 
 
-         <div className="blogContainer">
+         <div id="blogContainer">
 
 
 
