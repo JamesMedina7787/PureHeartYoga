@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 
 const sectionStyle= {
-  backgroundColor:"oldlace"
+  backgroundColor:"white"
 }
 const labelStyle= {
   fontSize:"1em",
   fontWeight:"bold"
 }
 const imgStyle= {
-  backgroundColor:"oldlace",
+  backgroundColor:"white",
   maxWidth: '50%',
     marginTop: "3em"
 }
 
 const linkStyle= {
-  backgroundColor:"oldlace",
+  backgroundColor:"white",
 
 }
 
