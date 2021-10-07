@@ -4,7 +4,10 @@ const sectionStyle= {
   backgroundColor:"white"
 }
 const labelStyle= {
-  fontSize:"1em",
+  borderStyle: 'solid',
+  margin: "2em",
+  padding: "2em",
+  fontSize:"1.5em",
   fontWeight:"bold"
 }
 const imgStyle= {
@@ -24,9 +27,12 @@ class Project extends Component {
 
   render() {
     return (
+
       <div className="Project">
+      <a  href={this.props.url}><div style={labelStyle}>{this.props.webSiteName}</div></a>
+
       <section style={sectionStyle}>
-       <a style={labelStyle} href={this.props.url}>{this.props.webSiteName}</a><br/>
+       <br/>
        <a style={linkStyle} href={this.props.url} alt="James Medina JWM Porfolio">
         <img className="Spins" style={imgStyle} src={this.props.image}/><br/>
          <br />
