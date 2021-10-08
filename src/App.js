@@ -11,6 +11,7 @@ import CSSTransitionGroup from "react-transition-group"
 
 
 import Project from "./components/Project"
+import ProjectLabel from "./components/ProjectLabel"
 
 
 import {NavLink} from 'react-router-dom'
@@ -115,17 +116,43 @@ class App extends Component {
 
 
 </div>
+<div class="flipBack">
+      <ProjectLabel webSiteName="Pure Heart Yoga" url="foldOver"  />
+
+</div>
+
 <div id="url">
-<div class="sectionStyle">
+    <div class="sectionStyle">
       <Project className="Spins" webSiteName="Pure Heart Yoga" image={scope} url="/FoldOverItem"/>
-</div>
-<div class="sectionStyle">
+    </div>
+    </div>
+
+    <div class="flipBack">
+          <ProjectLabel webSiteName="links" url="FoldOverItem2"  />
+
+    </div>
+
+    <div id="url">
+   <div class="sectionStyle">
       <Project className="Spins" webSiteName="Links" image={ohm} url="/FoldOverItem2"/>
-</div>
-<div class="sectionStyle">
+   </div>
+   </div>
+
+   <div class="flipBack">
+         <ProjectLabel webSiteName="Blog" url="/foldOverItem3"  />
+
+   </div>
+   <div id="url">
+   <div class="sectionStyle">
       <Project className="Spins" webSiteName="Blog" image={chakraSnakeImage} url="/FoldOverItem4"/>
-</div>
-</div>
+   </div>
+   </div>
+
+
+
+
+
+
 <div className="bowPic">
 
 </div>
