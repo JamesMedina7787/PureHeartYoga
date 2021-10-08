@@ -116,7 +116,7 @@ class App extends Component {
 
 
 </div>
-<div class="flipBack">
+<div class="spinBack">
       <ProjectLabel webSiteName="Pure Heart Yoga" url="foldOver"  />
 
 </div>
@@ -127,7 +127,7 @@ class App extends Component {
     </div>
     </div>
 
-    <div class="flipBack">
+    <div class="spinBack">
           <ProjectLabel webSiteName="links" url="FoldOverItem2"  />
 
     </div>
@@ -138,7 +138,7 @@ class App extends Component {
    </div>
    </div>
 
-   <div class="flipBack">
+   <div class="spinBack">
          <ProjectLabel webSiteName="Blog" url="/foldOverItem3"  />
 
    </div>
