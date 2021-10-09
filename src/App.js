@@ -117,7 +117,7 @@ class App extends Component {
 
 </div>
 <div class="spinBack">
-      <ProjectLabel webSiteName="Pure Heart Yoga" url="foldOver"  />
+      <ProjectLabel webSiteName="Pure Heart Yoga" url="foldOverItem"  />
 
 </div>
 

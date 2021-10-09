@@ -13,7 +13,9 @@ const Images = {
   backgroundColor: 'black',
   zIndex: '1',
   width:'25%',
-height: '85%'
+height: '85%',
+alt: "Pure Heart Yoga instagram",
+alt2: "Pure Heart Yoga Facebook"
 }
 
 class FoldOverItem2 extends Component {
@@ -21,13 +23,13 @@ class FoldOverItem2 extends Component {
 
       return (
         <div className="linksContainerLocations">
-        <a  href={Linkies.instagram} alt="Gia Gianina Pure Heart Yoga Porfolio">
-         <img  style = {Images} className="socialLinks" src={ig}/><br/>
+        <a  href={Linkies.instagram}>
+         <img  style = {Images} className="socialLinks" src={ig} alt={Images.alt}/><br/>
           <br />
             <br/>
          </a><br/>
-         <a href={Linkies.facebook} alt="Gia Gianina Pure Heart Yoga Porfolio">
-          <img style = {Images} className="socialLinks" src={fb}/><br/>
+         <a href={Linkies.facebook} alt="Gia Gianina Pure Heart Yoga instagram">
+          <img style = {Images} className="socialLinks" src={fb} alt={Images.alt2}/><br/>
            <br />
              <br/>
           </a>
