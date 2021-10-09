@@ -502,4 +502,15 @@ display: none;
       color: black;
 
   }
+
+  .spinsForward{
+    width: 100px;
+    margin-top: 40px;
+margin-left:5px
+  }
+  .backSpin{
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 5px
+  }
 }
