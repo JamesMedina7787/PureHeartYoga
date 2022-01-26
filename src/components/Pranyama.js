@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 var Breath = {
-  'intro': `Pranayama is the ancient Sanskrit term for breathing. The breath is more than just inhale and exhale. The breath is the basic most meaningful unit of life. The breath is the moment. The breath is simply the thing that we need the most in this life.
+  'intro': `Pranayama is the ancient Sanskrit term for breathing. The breath is more than just inhale and exhale. The breath is the basic most meaningful unit of life. The breath is the moment. The breath is the thing that we need the most in this life.
 
 It's common to hear of the breath whenever we experience yoga under a qualified teacher. As a student, I never fully understood the importance. As an experienced teacher, I have come to a much more intimate understanding of just what we mean when we talk about yoga breathing.
 
