@@ -43,11 +43,11 @@
 
 .foldOverContainer > :nth-of-type(1n){
   border-right: 1px solid white;
-  text-align: center;
-  padding: 1em;
+  text-align: justify;
+  padding: .7em;
   text-decoration: inherit;
   font-family: fantasy;
-  margin-right: 1em;
+  margin-right: .2em;
 
 
 }
@@ -61,17 +61,17 @@
 
 
 .foldOverContainer{
-  display: flex;
+display: flex;
 flex-direction: row;
-  max-width: 100%;
-  list-style-type: none;
+max-width: 100%;
+list-style-type: none;
 height: 140px;
-padding:1em;
+padding:3em;
 z-index: 1;
 }
 
 .foldOver:hover{
-border: 22px solid brown
+animation: 200ms ease-in 1 normal running forwards grows;
 }
 
 #blogContainer{
@@ -385,10 +385,10 @@ color:white;
 
 @keyframes grows{
   0%{
-    border: 0 solid purple
+    border: 0 solid red
   }
   100%{
-    border: 22px solid purple
+    border: 22px solid red
   }
 }
 
